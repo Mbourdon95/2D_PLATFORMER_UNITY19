@@ -12,9 +12,13 @@ Unity est un moteur de jeu multiplateforme développé par Unity Technologies. I
 
 ### 1.2 Accéder 
 
-![unity-tab-square-black](https://user-images.githubusercontent.com/71081511/101229106-f3ec1480-369e-11eb-94aa-1013e457226f.png)
+<img src="https://user-images.githubusercontent.com/71081511/101229106-f3ec1480-369e-11eb-94aa-1013e457226f.png" width="100" height="100"/>
 
-Il suffit de télchargez le UnityHub, à partir de la vous pourrez télécharger et stocker toutes les versions de unity et accéder à des projets communautaire en tout genre pour se familiariser avec les librairies.
+
+Il suffit de télechargez UnityHub,
+à partir de la vous pourrez télécharger et stocker toutes les versions de unity 
+et accéder à des projets communautaire en tout genre pour se familiariser avec les librairies.
+
 
 
 ## 2. Présentation Du Jeu : Les Elements :star:
