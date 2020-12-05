@@ -40,12 +40,13 @@ Pour utiliser la synthaxe BootStrap de manière simple, ajouter au source de 'in
 
 #### 2.2.1 Le Personnage Principal :
 
-#### 2.2.2 La Scene :
+#### 2.2.2 Enemies :
 
-#### 2.2.3 Props :
+#### 2.2.3 La Scene :
 
+#### 2.2.4 Props :
 
-## 3. Inscription Et Connexion !
+## 3. Fonctionnalité Du Jeu Proposé par Unity !
 
 Lors de la Connexion : l'utilisateur obtient les différents droits de son status : élève, professeur, visiteur et administrateur
 Chaque rôle est gérer par le bied des ($SESSION) du php. 
