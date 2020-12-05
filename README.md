@@ -25,16 +25,6 @@ et accéder à des projets communautaire en tout genre pour se familiariser avec
 
 
 ### 2.1 Les Menus :
-Pour utiliser la synthaxe BootStrap de manière simple, ajouter au source de 'index.php' : 
-```html
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-```
-
-![1](https://user-images.githubusercontent.com/71081511/100544281-deb55700-3254-11eb-8516-12cb3ba7e106.PNG)
-
->> On peut accéder aux items de la barre de navigation, accéder à des vues. 
-
-
 
 ### 2.2 Le TileUse : 
 
@@ -48,50 +38,9 @@ Pour utiliser la synthaxe BootStrap de manière simple, ajouter au source de 'in
 
 ## 3. Fonctionnalité Du Jeu Proposé par Unity !
 
-Lors de la Connexion : l'utilisateur obtient les différents droits de son status : élève, professeur, visiteur et administrateur
-Chaque rôle est gérer par le bied des ($SESSION) du php. 
+### 3.1 Les Librairies: 
 
-```php
-if(isset($_POST['Envoyez'])){
-      $connexion = ConnectSql('%%%','%%%','3308','%%%');
-      if(!empty($_POST['Pseudo'])){
-         $pseudo=$_POST['Pseudo'];
-         if(!empty($_POST['Mdp'])){
-            $mdp=$_POST['Mdp'];
-            $requeteVerif = "select u.pseudo, u.motDePasse, u.TypeUtil from utilisateur u where u.pseudo ='".$pseudo."' and u.motDePasse='".$mdp."';";
-            $resultat = $connexion->query($requeteVerif) or die ("execution de la requete impossible");
-            $ligne = $resultat->fetch(PDO::FETCH_OBJ); 
-            if(isset($ligne->pseudo)){
-               $uti=$ligne->TypeUtil;
-               $utili=$ligne->pseudo;
-               $_SESSION['id']=$uti;
-               $_SESSION['pseudo']=$utili;
-               echo "<script type='text/javascript'>document.location.replace('index.php?page=accueil');</script>";
-               Exit();
-```
-
-![5](https://user-images.githubusercontent.com/71081511/100544287-e248de00-3254-11eb-9f6b-ac257cf00f8b.PNG)
-
->> en Fonction de votre compte vous possédez certains Droits 
-
-![3](https://user-images.githubusercontent.com/71081511/100544284-e117b100-3254-11eb-940c-47f16bd437c0.PNG) -> ![6](https://user-images.githubusercontent.com/71081511/100544288-e2e17480-3254-11eb-8574-6da2d3a584ed.PNG)
-
-## 4. Gestion des Utilisateurs. 
-### 4.1 Gestion des membres : Prof et Eleves.
-
-### 4.2 Gestion des Options en première année. 
-
-### 4.3 Passage et Diplôme.
-
-
-
-
-* 0.4.0
-* addition: A Database that manages each player’s scores.
-with a filing system.
-* 0.3.5
-* Add: Add Collision on Snake Parts
-* addition: Review Collisions on the Apple
+### 3.2 
 
 
 ## Meta
