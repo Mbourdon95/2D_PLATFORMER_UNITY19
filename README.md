@@ -54,12 +54,6 @@ et accéder à des projets communautaire en tout genre pour se familiariser avec
 ![Capture d’écran 2020-12-05 à 16 48 05](https://user-images.githubusercontent.com/71081511/101247639-ff7d2100-371a-11eb-89b9-bade1e845ff8.png)
 ![Capture d’écran 2020-12-05 à 16 48 57](https://user-images.githubusercontent.com/71081511/101247648-09068900-371b-11eb-89c1-beafa4f152ac.png)
 
-## 3. Fonctionnalité Du Jeu Proposé par Unity !
-
-### 3.1 Les Librairies: 
-
-### 3.2 
-
 
 ## Meta
 
