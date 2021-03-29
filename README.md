@@ -1,4 +1,4 @@
-# GhostLife : Mon premier Projet Sous UnityEngine  :earth_americas: :honeybee:
+# JEU 2D Sous UnityEngine  :earth_americas: :honeybee:
 
 GhostLife est mon premier jeu, il s'agit d'un jeu solo en 2D avec des Tiles.
 
